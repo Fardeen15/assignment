@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var userName = prompt("whats your name");
+        // var names = ["abc", "ab", "a", "abc8", "ab6", "a1", "abc4", "a7", "4", "123"];
+        // for (var i = 0; i <= 10; i++) {
+        //     if (userName === names[i]) {
+        //         alert("correct");
+        //     }
+        //     else {
+        //         alert("sorry");
+        //     }
+        // }
+
+        var mtch = "no"
+        var names = ["abc", "ab", "a", "abc8", "ab6", "a1", "abc4", "a7", "4", "123"];
+        for (var i = 0; i <= 10; i++) {
+            if (userName === names[i]) {
+                alert("city found");
+                mtch = "yes"
+            }
+        }
+
+        if (mtch === "no") {
+            alert("sorry");
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
